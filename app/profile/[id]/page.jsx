@@ -27,8 +27,6 @@ const UserProfile = ({ params }) => {
     name={userName}
     desc={`Welcome to the personalized page of ${userName}`}
     data={posts}
-    handleEdit={handleEdit}
-    handleDelete={handleDelete}
     />
   )
 }
